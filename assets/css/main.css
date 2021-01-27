@@ -97,42 +97,16 @@ input, select, textarea {
 	@-ms-viewport {
 		width: device-width;
 	}
-
-	@media screen and (max-width: 480px) {
-
-		html, body {
-			min-width: 320px;
+	@media (max-width: 767px){
+		body.custom-background {
+			background-image: url(http://gleefulthings.com/WPtestblog/wp-content/uploads/2018/06/backgroundlogo2.jpg);
+			background-position: 50% top;
+			background-repeat: no-repeat;
+			background-attachment: scroll;
+			background-size: 70% auto;
 		}
-
 	}
-	
-	@media (max-width: 300px) {
-		body {
-		  background-color: red;
-		  background-image: image-url("http://placekitten.com/g/200/300");
-		}
-	  }
-	  
-	  /* Mobile Adjustments 
-	  @media (min-width: 301px) and (max-width: 600px) {
-		body {
-		  background-color: blue;
-		  background-image: image-url("http://placekitten.com/g/400/600");
-		}
-	  }
-	  @media (min-width: 601px) and (max-width: 768px) {
-		body {
-		  background-color: yellow;
-		  background-image: image-url("http://placekitten.com/g/500/768");
-		}
-	  }
-	  @media (min-width: 769px) {
-		body {
-		  background-color: green;
-		  background-image: image-url("http://placekitten.com/g/800/1048");
-		}
-	  }
-	  */
+
 	html {
 		box-sizing: border-box;
 	}

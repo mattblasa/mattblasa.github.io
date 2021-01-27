@@ -105,13 +105,15 @@ input, select, textarea {
 		}
 
 	}
-	/* Mobile Adjustments 
+	
 	@media (max-width: 300px) {
 		body {
 		  background-color: red;
 		  background-image: image-url("http://placekitten.com/g/200/300");
 		}
 	  }
+	  
+	  /* Mobile Adjustments 
 	  @media (min-width: 301px) and (max-width: 600px) {
 		body {
 		  background-color: blue;

@@ -97,16 +97,14 @@ input, select, textarea {
 	@-ms-viewport {
 		width: device-width;
 	}
-	@media (max-width: 767px){
-		body.custom-background {
-			background-image: url(http://gleefulthings.com/WPtestblog/wp-content/uploads/2018/06/backgroundlogo2.jpg);
-			background-position: 50% top;
-			background-repeat: no-repeat;
-			background-attachment: scroll;
-			background-size: 70% auto;
-		}
-	}
 
+	@media screen and (max-width: 480px) {
+
+		html, body {
+			min-width: 320px;
+		}
+
+	}
 	html {
 		box-sizing: border-box;
 	}
@@ -1180,7 +1178,7 @@ input, select, textarea {
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
 			/*Background Image in the images file*/
-			background-image: url("../../images/hongshu.jpg");
+			background-image: url("../../images/mist.jpg");
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
